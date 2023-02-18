@@ -1,0 +1,178 @@
+html {
+    font-size: 7px;
+} 
+body{
+    background-color: #0C1126;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header{
+    overflow-y: none;
+    height: 8vh;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 18%;
+}
+
+.header .header-right img{
+    width: auto;
+    height: 100px;
+    border-radius: 2.5rem;
+    margin-right: 0.8rem;
+    max-height: 10rem;
+    max-width: 30rem;
+} 
+
+.header .header-right a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.header-left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+}
+
+.header-left .search-container{
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #040936;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 4rem;
+}
+
+.header-left .search-container input{
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    padding-left: 0.1rem;
+    background-color: transparent;
+    width: 70%;
+    height: 4rem;
+    border: 0;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    color: white;
+}
+
+.header-left .search-container input:focus {
+    outline: none;
+}
+
+#icon{
+    color: white;
+}
+
+#bellicon{
+    color: #E7E7E6;
+    margin-right: 50px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.profilepic{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: none;
+}
+
+.playlistinfo{
+    height:40vh;
+    width:60%;
+    color: lightgray;
+    background-color: rgb(30, 10, 81);
+    display: flex;
+    margin:20px;
+    margin-left: 20vh;
+    
+}
+
+.playlistinfo .introimage img{
+    height:40vh;
+    width:40vh;
+    
+}
+
+.playlistinfo article .playlistheader{
+    padding-top:5vh;
+    padding-left: 2vh;  
+}
+
+.playlistinfo article .playlistheader .namefollowers{
+    display: flex;
+    justify-content: space-between;
+    margin-right:2vh;
+
+}
+.playlistinfo article .playlistheader .bandname{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.playlistinfo article .playlistheader p{
+    font-weight: lighter;
+    margin-top: 0.1rem;
+}
+
+.playlistinfo article main{
+    /* padding-top:2vh; */
+    padding-left: 2vh;  
+    word-spacing: 0.2rem;
+    line-height: 2rem;
+    font-size: 8.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right:2vh;
+}
+
+.playlistinfo article main button{
+    margin-top:2vh;
+    margin-bottom: 1vh;
+    height:6vh;
+    width:20vh;
+    color: white;
+    border:none;
+}
+
+
+
+ #playbutton{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(5, 1, 75) 0%, rgba(54,1,86,1) 0%, rgba(45,2,94,1) 0%, rgba(126,7,201,1) 51%, rgba(160,7,183,1) 100%);
+    
+}
+
+#followbutton{
+    background-color:  rgb(30, 10, 81) ;
+
+}
+
+.queueOfSongs{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
