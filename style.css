@@ -1,5 +1,5 @@
 html {
-    font-size: 7px;
+    font-size: 10px;
 } 
 body{
     background-color: #0C1126;
@@ -28,9 +28,10 @@ body{
 
 .header .header-right img{
     width: auto;
-    height: 100px;
+    height: 10vh;
     border-radius: 2.5rem;
     margin-right: 0.8rem;
+    padding-top: 1rem;
     max-height: 10rem;
     max-width: 30rem;
 } 
@@ -99,7 +100,7 @@ body{
 }
 
 .playlistinfo{
-    height:40vh;
+    height:50vh;
     width:60%;
     color: lightgray;
     background-color: rgb(30, 10, 81);
@@ -110,8 +111,8 @@ body{
 }
 
 .playlistinfo .introimage img{
-    height:40vh;
-    width:40vh;
+    height:50vh;
+    width:50vh;
     
 }
 
@@ -141,7 +142,7 @@ body{
     /* padding-top:2vh; */
     padding-left: 2vh;  
     word-spacing: 0.2rem;
-    line-height: 2rem;
+    line-height: 1.7rem;
     font-size: 8.5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right:2vh;
@@ -170,9 +171,255 @@ body{
 }
 
 .queueOfSongs{
-    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin:0;
+    width: 60%;
+    margin-left: 20vh;
+}
+
+.queueOfSongs .queueElements{
+    margin-bottom: 0.6rem;
+    width: 100%;
+    height:8vh;
+    background-color: #1e222e98;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.elementcontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+} 
+   
+.queue-number {
+    font-size: 0.8rem;
+    color: #8092A1;
+    margin-right: 1rem;
+}
+
+.currently-on-song {
+    color: #10c765;
+    transform: rotate(-90deg);
+    margin-right: 0.9rem;
+}
+
+.image-container {
+    position: relative;
+}
+
+.queue-song-img {
+    width: 3rem;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
+}
+
+.queue-song-img i {
+    
+    transition: all 0.2s ease-in-out;
+}
+
+.queue-song-img i:hover {
+    opacity: 0.9;
+    height: 1rem;
+}
+
+.queue-song-img:hover~i {
+    opacity: 0.9;
+    height: 1rem;
+}
+
+.nav-link button {
+    background: none;
+    border: 0px;
+    padding: 0px;
+    font-size: 17px;
+    line-height: 1;
+    outline: none;
+}
+
+.nav-link button:hover {
+    cursor: pointer;
+}
+
+.nav-link button:focus i {
+    color:#1dd65f;
+    -webkit-animation: nextarrow 1s infinite;
+    -moz-animation: nextarrow 1s infinite;
+    -o-animation: nextarrow 1s infinite;
+    animation: nextarrow 1s infinite;
+}
+
+.play-btn {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    color: white;
+    top: 1rem;
+    left: 1rem;
+}
+
+.queue-song-name {
+    font-size: 1rem;
+    color: #F6F7F9;
+}
+
+.queue-artist-name {
+    font-size: 0.9rem;
+    color: #8A909D;
+}
+
+.wishlist-icon {
+    color: #92A6B3;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #454545;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 5;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    height:74px;
+    margin-left: -50px;
+}
+
+#footer-song-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+#footer-song-info>div {
+    margin: 1vh;
+}
+
+#footer-song-image {
+    height: 4rem;
+    width: 4rem;
+    margin: 1vh;
+    background: url("./static/universe-coldplay.jpg") center no-repeat;
+    background-size: contain;
+}
+
+#footer-song-name {
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subtitle {
+    color: #C0C0C0;
+    font-size: 1rem;
+    margin: 0.1rem;
+}
+
+
+/*Player Controls*/
+
+
+/* Pause, Next, Shuffle &other Icons and Slider Styling*/
+
+#player {
+    width: 40%;
+    min-width: 200px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#player>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#player-control {
+    width: 50%;
+}
+
+#player-slider-container {
+    width: 100%;
+}
+
+input[type="range"] {
+    width: 80%;
+}
+
+
+/*Player Extras*/
+
+.player-extras {
+    display: flex;
+    width: 20%;
+    min-width: 115px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volume-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#volume-slider {
+    width: 80%;
+}
+
+
+/* hide scrollbar */
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+main {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+#queue-2::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+#queue-2 {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
