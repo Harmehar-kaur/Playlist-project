@@ -10,27 +10,35 @@
   </head>
 
   <body>
+    <!-- Header section with the profile bell icon and search bar -->
     <header class="header">
         <section class="header-right">
+            <!-- Header Logo And Favourites -->
             <img src="./static/logo.png" alt="logo">
             <a href="">Favourites</a> 
         </section>
         <section class="header-left">
             <div class="search-container">
+                <!-- Search Bar -->
                 <i id="icon" class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" name="search" placeholder="Search">
                 <i id="icon" class="fa-solid fa-microphone"></i>
             </div>  
+            <!-- Bell Icon -->
             <i id="bellicon" class="fa-solid fa-bell"></i>
+            <!-- Profile-Pic -->
             <img src="./static/profile.jpg" alt="profilepic" class="profilepic">
         </section>
     </header>
-    <main>
+    <!-- Main Section Of the page with playlists and Everything -->
+    <main class="mainplayerpage">
         <section class="playlistinfo">
+            <!-- first block of information of playlist  -->
             <div class="introimage">
                 <img src="./static/coldplay.jpg">
             </div>
             <article>
+                <!-- coldplay name  -->
                 <header class="playlistheader">
                     <div class="namefollowers">
                         <span class="bandname">Coldplay</span>
@@ -38,6 +46,7 @@
                     </div>
                     <p>British Band</p>
                 </header>
+                <!-- the paragraph about the artist  -->
                 <main>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
@@ -48,15 +57,19 @@
                         and more recently with desktop publishing software like Aldus PageMaker including versions of
                         Lorem Ipsum
                     </p>
+                    <!-- play and follow button  -->
                     <div>
                         <button type="button" id="playbutton">Play All</button>
                         <button type="button" id="followbutton">Follow</button>
                     </div>
+                    <!-- record of tracks and albums -->
                     <span>247 tracks | 128 Albums </span>
                 </main>
             </article>
         </section>
+        <!-- songs in the playlist  -->
         <section class="queueOfSongs">
+            <!-- each song is the element  -->
             <div class="queueElements">
                 <div class="elementcontent">
                     <p class="queue-number">01</p>
@@ -186,8 +199,62 @@
                 </span>
             </div>
         </section>
-        <aside>
+        <!-- Similar artists and Recently Played Section  -->
+        <aside class="aside-sections">
+            <!-- Similar artists section  -->
+            <section class="similar-artists">
+                <div class="similar-artists-header">
+                    <p>Similar Artists</p>
+                </div>
+                <div class="similar-artists-container">
+                    <div class="similar-artists-element">
+                        <div class="song-name-and-img-container">
+                            <div class="similar-artist-img-container">
+                                <label for="play-btn-checkbox1"><i class="fas similar-artists-play-btn fa-play play-1"></i><i class="similar-artists-pause-btn fas fa-pause pause-1"></i></label>
+                            </div>
+                            <div>
+                                <p class="song-name">Onism</p>
+                                <p class="date">AUG 11, 2017</p>
+                            </div>
+                        </div>
 
+                        <div class="similar-artists-dropdown-container">
+                            <label for="similar-artists-checkbox1"><i class="fas more-details fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="similar-artists-checkbox1">
+                            <div class="similar-artists-dropdown">
+
+                                <div class="links-container">
+                                    <i class="fas fa-play"></i>
+                                    <a href="">Play Now</a>
+                                </div>
+
+                                <hr>
+
+                                <div class="links-container">
+                                    <i class="fas fa-plus"></i>
+                                    <a href="">Add To Queue</a>
+                                </div>
+
+                                <hr>
+
+                                <div class="links-container">
+                                    <i class="fas fa-bars"></i>
+                                    <a href="">Add To Favourites</a>
+                                </div>
+
+                                <hr>
+
+                                <div class="links-container">
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    <a href=""><span></span>Get Info</a>
+                                </div>
+
+                            </div>
+                            <p class="time">4:44</p>
+                        </div>
+
+                    </div>
+            </section>
         </aside>
     </main>
     <footer>
