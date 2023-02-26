@@ -19,85 +19,7 @@ body{
     align-items: center;
 }
 
-.header .header-right{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 18%;
-}
 
-.header .header-right img{
-    width: auto;
-    height: 10vh;
-    border-radius: 2.5rem;
-    margin-right: 0.8rem;
-    padding-top: 1rem;
-    max-height: 10rem;
-    max-width: 30rem;
-} 
-
-.header .header-right a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: large;
-}
-
-.header-left{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 55%;
-}
-
-.header-left .search-container{
-    padding: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    background-color: #040936;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
-    margin-right: 4rem;
-}
-
-.header-left .search-container input{
-    font-size: 1.1rem;
-    padding: 0.6rem;
-    padding-left: 0.1rem;
-    background-color: transparent;
-    width: 70%;
-    height: 4rem;
-    border: 0;
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
-    color: white;
-}
-
-.header-left .search-container input:focus {
-    outline: none;
-}
-
-#icon{
-    color: white;
-}
-
-#bellicon{
-    color: #E7E7E6;
-    margin-right: 50px;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-
-}
-
-.profilepic{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    padding: none;
-}
 
 .mainplayerpage {
     display: flex;
@@ -610,4 +532,136 @@ main {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+}
+
+@media only screen and (max-width:960px) {
+    .playlistinfo{
+        height:300px;
+        margin-left:2vh;
+    }
+    
+    .playlistinfo .introimage img{
+        height:300px;
+    }
+
+    .playlistinfo article .playlistheader{
+        padding-top:2vh;  
+    }
+
+    .playlistinfo article .playlistheader .bandname{
+        font-size: 15px;
+    }
+
+    #followers{
+        font-size: 7.5px;
+    }
+
+    .playlistinfo article .playlistheader p{
+        font-size: 7.5px;
+    }
+
+    .playlistinfo article main{  
+        word-spacing: 0.1rem;
+        line-height: 1.2rem;
+    }
+
+    .playlistinfo article main button{
+        height:3em;
+        width:12vh;
+    }
+
+    #playbutton span{
+        display: none;
+    }
+
+    #playbutton i{
+        color: white;
+    }
+
+    #followbutton{
+        font-size: 0.7rem;
+    }
+
+    .queueOfSongs{
+        margin:0;
+        margin-left:2vh;
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+
+    .main-playlist-ondisplay{
+        flex:65%;
+    }
+    .aside-sections{
+        flex:35%;
+        margin-left: 5vh;
+    }
+    .playlistinfo{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+
+    .playlistinfo .introimage img{
+        height:30rem;
+        width: 100%;
+    }
+
+    .playlistinfo article main button{
+        height:2em;
+        width:8vh;
+    }
+
+    #playbutton span{
+        display: none;
+    }
+
+    #playbutton i{
+        color: white;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    .mainplayerpage {
+        flex-direction: column;
+    }
+
+    .playlistinfo{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+
+    .playlistinfo .introimage img{
+        height:30rem;
+        /* width: 30rem; */
+    }
+
+    #playbutton span{
+        display: none;
+    }
+
+    #playbutton i{
+        color: white;
+    }
+
+    .queueOfSongs{
+        margin-left: 2vh;
+        /* width: 100%; */
+    }
+
+    .queueOfSongs .queueElements{
+        margin-bottom: 0.6rem;
+        /* width: 100%; */
+        height:8vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }

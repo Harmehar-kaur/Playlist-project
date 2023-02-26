@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- linking the font awesome kit for icons  -->
+	<link rel="stylesheet" href="https://kit.fontawesome.com/e6b8bf91fa.css" crossorigin="anonymous">
+
+	<!-- linking the style sheet -->
+	<link rel="stylesheet" href="../stylesheets/Singleplayliststyle.css">
+
+	<!-- this is the responsive style sheet for the page -->
+	<link rel="stylesheet" href="../stylesheets/responsive.css">
+
+	<title>Single Player Playlist</title>
+</head>
+<body>
+	<!-- Header section of each page contains a logo, favourites, search-bar, notification bell and pfp  -->
+	<header class="header">
+		<!-- left header with the logo and the favourites options  -->
+		<section class="header-right">
+			<img src="../static/logo.png" alt="A theme matched image of ninja studio logo">
+			<a href="">
+				<p class="favourites">Favourites</p>
+				<i class="fa-solid fa-star" id="likeicon"></i>
+			</a>
+		</section>
+		<!-- right header with the search bar, bell icon and profile -->
+		<section class="header-left">
+			<!-- search bar  -->
+			<div class="search-container">
+				<i id="icon" class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="search" placeholder="Search">
+                <i id="icon" class="fa-solid fa-microphone"></i>
+			</div>
+			<!-- Bell Icon -->
+            <i id="bellicon" class="fa-solid fa-bell"></i>
+            <!-- Profile-Pic -->
+            <img src="../static/profile.jpg" alt="profilepic" class="profilepic">
+		</section>
+	</header>
+	<main class="mainplayerpage">
+		<article class="main-playlist-ondisplay">
+			<header class="playlist-header">
+				<div class="playlist-image">
+					<img src="../static/coldplay.jpg" alt="coldplay intoduction image" class="introimage">
+				</div>
+				<div class="playlist-info">
+					<div class="namefollowers">
+						<div class="smallscreenbackground"> </div>
+						<span class="bandname">Coldplay</span>
+						<span class="followercount">851 followers</span>
+					</div>
+					<div class="bandtype">
+						<p>British Band</p>
+					</div>
+					<div class="main-content">
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+							the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+							of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+							but also the leap into electronic typesetting, remaining essentially unchanged. It was
+							popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+							and more recently with desktop publishing software like Aldus PageMaker including versions of
+							Lorem Ipsum
+						</p>
+					</div>
+					<div class="buttons">
+						<button type="button" id="playbutton" class="header-button">
+							<span>Play All</span>
+						</button>
+						<button type="button" id="followbutton" class="header-button">
+							Follow
+						</button>
+					</div>
+					<span>247 tracks | 128 Albums </span>
+				</div>
+			</header>
+		</article>
+		<aside class="aside-sections"></aside>
+	</main>
+	<footer></footer>
+</body>
+<script src="https://kit.fontawesome.com/e6b8bf91fa.js" crossorigin="anonymous"></script>
+</html>

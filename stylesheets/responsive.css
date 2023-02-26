@@ -1,0 +1,138 @@
+@media only screen and (max-width:900px){
+    .playlist-header{
+        height:75vh;
+        margin-left: 2vh;
+    }
+
+    .playlist-image .introimage{
+        height:75vh;
+    }
+}
+
+@media only screen and (max-width:695px){
+    .playlist-header{
+        flex-direction: column;
+        height:auto;
+        width:auto;
+    }
+
+    .playlist-image {
+        width:100%;
+        background:linear-gradient(120deg,rgb(163, 9, 235),rgb(49, 1, 78)) ;
+    }
+
+    .playlist-image .introimage{
+        width:100%;
+        height:auto;
+        padding: 2vh;
+    }
+
+    .playlist-info .namefollowers{
+        flex-direction: column;
+        padding-bottom: 1vh;
+    }
+    
+}
+
+@media only screen and (max-width:530px) {
+    
+    .header .header-right img{
+        width: 5rem;
+        height: 6rem;
+        border-radius: 2.5rem;
+        margin-right: 0;    
+    } 
+    
+    .header .header-right a .favourites{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 7px;
+    }
+
+    .header-left{
+        width: 50%;
+    }
+    
+    .header-left .search-container{
+        width: 40%;
+    }
+    
+    .header-left .search-container input{
+        font-size: 0.8rem;
+        width: 100%;
+        height: 2rem;
+        color: white;
+    }
+
+    .mainplayerpage {
+        flex-direction: column;
+        /* overflow-x: hidden; */
+        margin: 0;
+    }
+
+    .main-playlist-ondisplay{
+        width:100%;
+        padding: 0;
+        margin:0;
+    }
+}
+
+@media only screen and (max-width:350px) {
+
+    .header .header-right{
+        justify-content:space-between;
+        align-items: center;
+        width: 18%;
+    }
+    
+    .header .header-right img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    } 
+    
+    .header .header-right a .favourites{
+        display:none; 
+    }
+
+    #likeicon{
+        display: inline;
+        color: white;
+        height: 3rem;
+        width:3rem;
+        padding-left: 2rem;    
+    }
+
+    .header-left{
+        width: 30%;
+    }
+    
+    .header-left .search-container{
+        width: 100%;
+    }
+    
+    .header-left .search-container input{
+        font-size: 0.3rem;
+        height: 2rem;
+        color: white;
+    }
+    
+    #bellicon{
+        color: #E7E7E6;
+        margin-right: 10px;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+}
+
+/* @media only screen and (max-width:250px){
+    main{
+        overflow-x:hidden;
+    }
+
+    .mainplayerpage {
+       
+        overflow-x:hidden;
+    }
+} */
