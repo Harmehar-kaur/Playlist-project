@@ -1,15 +1,18 @@
 @media only screen and (max-width:900px){
+    .main-playlist-ondisplay{
+        flex:60%;
+        margin-left:2vh;
+    }
     .playlist-header{
-        height:75vh;
-        margin-left: 2vh;
+        height:80vh;
     }
 
     .playlist-image .introimage{
-        height:75vh;
+        height:80vh;
     }
 }
 
-@media only screen and (max-width:695px){
+@media only screen and (max-width:700px){
     .playlist-header{
         flex-direction: column;
         height:auto;
@@ -35,6 +38,7 @@
 }
 
 @media only screen and (max-width:530px) {
+
     
     .header .header-right img{
         width: 5rem;
@@ -67,15 +71,21 @@
 
     .mainplayerpage {
         flex-direction: column;
-        /* overflow-x: hidden; */
-        margin: 0;
+        padding: 0;
+        margin:0;
+        height:100%;
+        overflow-x: auto;
     }
 
     .main-playlist-ondisplay{
-        width:100%;
-        padding: 0;
-        margin:0;
+        margin:0.1rem;
     }
+
+    .aside-sections{
+        width:95%;
+        margin: 0.1rem;
+    }
+    
 }
 
 @media only screen and (max-width:350px) {
@@ -126,7 +136,7 @@
     }
 }
 
-/* @media only screen and (max-width:250px){
+@media only screen and (max-width:250px){
     main{
         overflow-x:hidden;
     }
@@ -135,4 +145,4 @@
        
         overflow-x:hidden;
     }
-} */
+}

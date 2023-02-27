@@ -9,6 +9,7 @@
 
 	<!-- linking the style sheet -->
 	<link rel="stylesheet" href="../stylesheets/Singleplayliststyle.css">
+	<link rel="stylesheet" href="../stylesheets/commonstyle.css">
 
 	<!-- this is the responsive style sheet for the page -->
 	<link rel="stylesheet" href="../stylesheets/responsive.css">
@@ -40,6 +41,9 @@
             <img src="../static/profile.jpg" alt="profilepic" class="profilepic">
 		</section>
 	</header>
+	<input style="display: none;" type="checkbox" id="play-btn-checkbox1">
+	<input style="display: none;" type="checkbox" id="play-btn-checkbox2">
+	<input style="display: none;" type="checkbox" id="play-btn-checkbox3">
 	<main class="mainplayerpage">
 		<article class="main-playlist-ondisplay">
 			<header class="playlist-header">
@@ -77,8 +81,932 @@
 					<span>247 tracks | 128 Albums </span>
 				</div>
 			</header>
+			<main class="song-queue">
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">01</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/doja cat.webp">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Kiss Me More</p>
+								<p class="queue-artist-name">Doja Cat</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">02</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/7rings.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">7 rings</p>
+								<p class="queue-artist-name">Ariana Grande</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">03</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/allyourfriends-coldplay.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">All Your Friends</p>
+								<p class="queue-artist-name">Cold Play</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">04</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/attention.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Attention</p>
+								<p class="queue-artist-name">Charlie Puth</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">05</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/cheapthrills.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Cheap Thrills</p>
+								<p class="queue-artist-name">Sia</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">06</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/dusk.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Dusk Till Dawn</p>
+								<p class="queue-artist-name">Zayn</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">07</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/good4u.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Good For You</p>
+								<p class="queue-artist-name">Olivia Rodrigo</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">08</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/heather.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Heather</p>
+								<p class="queue-artist-name">Conan Gray</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">09</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/perfect.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Perfect</p>
+								<p class="queue-artist-name">One-Direction</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">10</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/universe-coldplay.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Universe</p>
+								<p class="queue-artist-name">Cold Play</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">11</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/doja cat.webp">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Kiss Me More</p>
+								<p class="queue-artist-name">Doja Cat</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">12</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/7rings.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">7 rings</p>
+								<p class="queue-artist-name">Ariana Grande</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">13</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/allyourfriends-coldplay.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">All Your Friends</p>
+								<p class="queue-artist-name">Cold Play</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">14</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/attention.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Attention</p>
+								<p class="queue-artist-name">Charlie Puth</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<i class="fas currently-on-song fa-stream"></i>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/universe-coldplay.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Universe</p>
+								<p class="queue-artist-name">Cold Play</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">16</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/cheapthrills.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Cheap Thrills</p>
+								<p class="queue-artist-name">Sia</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">17</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/dusk.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Dusk Till Dawn</p>
+								<p class="queue-artist-name">Zayn</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">18</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/good4u.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Good For You</p>
+								<p class="queue-artist-name">Olivia Rodrigo</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">19</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/heather.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Heather</p>
+								<p class="queue-artist-name">Conan Gray</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">20</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/perfect.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Perfect</p>
+								<p class="queue-artist-name">One-Direction</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+				<section class="song-queue-element">
+					<div class="queue-element">
+						<div class="song-image-container">
+							<p class="queue-number">21</p>
+							<div class="image-container">
+								<img class="queue-song-img" src="../static/universe-coldplay.jpg">
+								<i class="fas play-btn fa-play"></i>
+							</div>
+							<div class="song-and-artist-container">
+								<p class="queue-song-name">Universe</p>
+								<p class="queue-artist-name">Cold Play</p>
+							</div>
+						</div>
+						<div class="icons-container">
+							<i class="far wishlist-icon fa-heart"></i>
+							<i class="fas add-icon fa-plus"></i>
+						</div>
+					</div>
+				</section>
+			</main>
 		</article>
-		<aside class="aside-sections"></aside>
+		<aside class="aside-sections">
+			<section class="similar-artist-section">
+                    <div class="similar-artist-header">
+                        <p>Similar Artists</p>
+                        <a href="">View All</a>
+                    </div>
+                    <div class="similar-artist-cards-container">
+                        <div class="similar-artist-card">
+                            <div class="song-name-and-img-container">
+                                <div class="similar-artist-img-container">
+                                    <label for="play-btn-checkbox1"><i class="fas similar-artist-play-btn fa-play play-1"></i><i class="similar-artist-pause-btn fas fa-pause pause-1"></i></label>
+                                </div>
+                                <div>
+                                    <p class="song-name">Onism</p>
+                                    <p class="date">AUG 11, 2017</p>
+                                </div>
+                            </div>
+
+                            <div class="similar-artist-dropdown-container">
+                                <label for="similar-artist-checkbox1"><i class="fas more-details fa-ellipsis-h"></i></label>
+                                <input type="checkbox" id="similar-artist-checkbox1">
+                                <div class="similar-artist-dropdown">
+
+                                    <div class="links-container">
+                                        <i class="fas fa-play"></i>
+                                        <a href="">Play Now</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-plus"></i>
+                                        <a href="">Add To Queue</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-bars"></i>
+                                        <a href="">Add To Favourites</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <a href=""><span></span>Get Info</a>
+                                    </div>
+
+                                </div>
+                                <p class="time">4:44</p>
+                            </div>
+
+                        </div>
+                        <div class="similar-artist-card">
+                            <div class="song-name-and-img-container">
+                                <div class="similar-artist-img-container">
+                                    <label for="play-btn-checkbox3"><i class="fas similar-artist-play-btn fa-play play-3"></i><i class="similar-artist-pause-btn fas fa-pause pause-3"></i></label>
+                                </div>
+                                <div>
+                                    <p class="song-name">Onism</p>
+                                    <p class="date">AUG 11, 2017</p>
+                                </div>
+                            </div>
+
+                            <div class="similar-artist-dropdown-container">
+                                <label for="similar-artist-checkbox3"><i class="fas more-details fa-ellipsis-h"></i></label>
+                                <input type="checkbox" id="similar-artist-checkbox3">
+                                <div class="similar-artist-dropdown">
+
+                                    <div class="links-container">
+                                        <i class="fas fa-play"></i>
+                                        <a href="">Play Now</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-plus"></i>
+                                        <a href="">Add To Queue</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-bars"></i>
+                                        <a href="">Add To Favourites</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <a href=""><span></span>Get Info</a>
+                                    </div>
+
+                                </div>
+                                <p class="time">4:44</p>
+                            </div>
+
+                        </div>
+                        <div class="similar-artist-card">
+                            <div class="song-name-and-img-container">
+                                <div class="similar-artist-img-container">
+                                    <label for="play-btn-checkbox2"><i class="fas similar-artist-play-btn fa-play play-2"></i><i class="similar-artist-pause-btn fas fa-pause pause-2"></i></label>
+                                </div>
+                                <div>
+                                    <p class="song-name">Onism</p>
+                                    <p class="date">AUG 11, 2017</p>
+                                </div>
+                            </div>
+
+                            <div class="similar-artist-dropdown-container">
+                                <label for="similar-artist-checkbox2"><i class="fas more-details fa-ellipsis-h"></i></label>
+                                <input type="checkbox" id="similar-artist-checkbox2">
+                                <div class="similar-artist-dropdown">
+
+                                    <div class="links-container">
+                                        <i class="fas fa-play"></i>
+                                        <a href="">Play Now</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-plus"></i>
+                                        <a href="">Add To Queue</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-bars"></i>
+                                        <a href="">Add To Favourites</a>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="links-container">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <a href=""><span></span>Get Info</a>
+                                    </div>
+
+                                </div>
+                                <p class="time">4:44</p>
+                            </div>
+
+                        </div>
+                    </div>
+			</section>
+			<section id="queue-2" class="recently-played-queue-container">
+                    <div class="queue-header">
+                        <p>Recently Played</p>
+                        <div class="queue-btn-container">
+
+                            <!-- here label is acting as a button for dropdown effect -->
+                            <a href="">View All</a>
+                        </div>
+                    </div>
+
+                    <div class="queue-elements-container">
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">01</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-01.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <i class="fas currently-on-song fa-stream"></i>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-02.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">03</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">04</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-05.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">05</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">06</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-04.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">07</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-01.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">08</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-02.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">09</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">10</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-05.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">11</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">12</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-04.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+						<div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">13</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-01.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">13</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">14</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">15</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-05.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">16</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">17</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-04.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">18</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-01.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">19</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-02.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">20</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">21</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-05.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Worry Bout Us</p>
+                                    <p class="queue-artist-name">Rosie Lowe</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">22</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-03.png" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">New Skin</p>
+                                    <p class="queue-artist-name">Flume</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                        <div id="queue-element-2" class="queue-element">
+                            <div class="song-image-container">
+                                <p class="queue-number">23</p>
+                                <div class="image-container">
+                                    <img class="queue-song-img" src="../static/queue-04.jpg" />
+                                    <i class="fas play-btn fa-play"></i>
+                                </div>
+                                <div class="song-and-artist-container">
+                                    <p class="queue-song-name">Mirage</p>
+                                    <p class="queue-artist-name">Else</p>
+                                </div>
+                            </div>
+
+                            <i class="far wishlist-icon fa-heart"></i>
+                        </div>
+                    </div>
+			</section>
+		</aside>
 	</main>
 	<footer></footer>
 </body>

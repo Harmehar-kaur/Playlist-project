@@ -1,0 +1,234 @@
+/* general page  */
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #0C1126;
+    overflow-y: auto;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* header section  */
+.header{
+    overflow-y: none;
+    height: 8vh;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 18%;
+}
+
+.header .header-right img{
+    width: auto;
+    height: 10vh;
+    border-radius: 2.5rem;
+    margin-right: 0.8rem;
+    padding-top: 1rem;
+    max-height: 10rem;
+    max-width: 30rem;
+} 
+
+.header .header-right a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.header .header-right a .favourites{
+    font-weight: bold;
+    font-size: large;
+}
+
+#likeicon{
+    display: none;
+}
+
+
+.header-left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+}
+
+.header-left .search-container{
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #040936;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 4rem;
+}
+
+.header-left .search-container input{
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    padding-left: 0.1rem;
+    background-color: transparent;
+    width: 70%;
+    height: 3rem;
+    border: 0;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    color: white;
+}
+
+.header-left .search-container input:focus {
+    outline: none;
+}
+
+#icon{
+    color: white;
+}
+
+#bellicon{
+    color: #E7E7E6;
+    margin-right: 50px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.profilepic{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: none;
+}
+
+/* footer (audio player controls)*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #0b0a0a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 5;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    height:59px;
+    margin-left: -50px;
+}
+  
+#footer-song-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+  
+#footer-song-info>div {
+    margin: 1vh;
+}
+  
+#footer-song-image {
+    height: 2rem;
+    width: 2rem;
+    margin: 1vh;
+    background: url("../static/universe-coldplay.jpg") center no-repeat;
+    background-size: contain;
+}
+  
+#footer-song-name {
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#footer-song-name .name{
+    color: #E7E7E6;
+    font-size: 0.5rem;
+}
+
+.subtitle {
+    color: #C0C0C0;
+    font-size: 0.4rem;
+    margin: 0.1rem;
+}
+  
+  
+/*Player Controls*/
+  
+  
+/* Pause, Next, Shuffle &other Icons and Slider Styling*/
+  
+#player {
+    width: 40%;
+    min-width: 200px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+#player>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+#player-control {
+    width: 50%;
+    color: white;
+}
+  
+#player-slider-container {
+    width: 100%;
+}
+  
+input[type="range"] {
+    width: 80%;
+}
+  
+  
+/*Player Extras*/
+  
+.player-extras {
+    display: flex;
+    width: 20%;
+    min-width: 115px;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.volume-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+#volume-slider {
+    width: 80%;
+}
+  
+  
+/* hide scrollbar */
+  
+  
+/* Hide scrollbar for Chrome, Safari and Opera */
+  
+main::-webkit-scrollbar {
+    display: none;
+}
