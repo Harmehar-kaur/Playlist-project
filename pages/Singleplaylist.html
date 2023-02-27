@@ -1008,7 +1008,65 @@
 			</section>
 		</aside>
 	</main>
-	<footer></footer>
+	<footer>
+        <!-- Song Thumnail, Title, Singer -->
+        <div id="footer-song-info">
+            <div id="footer-song-image"></div>
+            <div id="footer-song-name">
+                <span class="name">Universe</span>
+                <span class="subtitle">Cold Play</span>
+            </div>
+            <div>
+                <span class="nav-link">
+                    <i class="far fa-heart subtitle"></i>
+                </span>
+                <span class="nav-link">
+                    <i class="fas fa-ban subtitle"></i>
+                </span>
+            </div>
+        </div>
+
+        <!-- Contains Player Controls: Play, Pause, Next, Previous, Shuffle and Repeat with Slider -->
+        <div id="player">
+
+            <div id="player-control">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="far fa-pause-circle" style="font-size: 2rem;"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+
+            <div id="player-slider-container">
+                <div class="subtitle">
+                    0:00
+                </div>
+
+                <input type="range" min="0" max="100" value="25">
+
+                <div class="subtitle">
+                    4:44
+                </div>
+            </div>
+        </div>
+
+        <!-- Volume buttom, Expand button -->
+        <div class="player-extras">
+            <div>
+                <i class="fas fa-list-ul" style="color:white;"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop" style="color:white;"></i>
+            </div>
+
+            <div class="volume-container" style="color:white;">
+                <span><i class="fas fa-volume-up"></i></span>
+                <input type="range" min="0" max="100" value="50" class="slider" id="volume-slider">
+            </div>
+            <div><i class="fas fa-expand" style="color:white;"></i></div>
+        </div>
+
+    </footer>
 </body>
 <script src="https://kit.fontawesome.com/e6b8bf91fa.js" crossorigin="anonymous"></script>
 </html>

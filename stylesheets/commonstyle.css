@@ -125,7 +125,6 @@ footer {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     height:59px;
-    margin-left: -50px;
 }
   
 #footer-song-info {
@@ -157,12 +156,12 @@ footer {
 
 #footer-song-name .name{
     color: #E7E7E6;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 .subtitle {
     color: #C0C0C0;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     margin: 0.1rem;
 }
   

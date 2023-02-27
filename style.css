@@ -847,6 +847,10 @@ main {
   /* Firefox */
 }
 
+footer {
+  margin-left: -50px !important;
+}
+
 
 /* media query for extra small devices */
 
